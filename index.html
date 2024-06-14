@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>parentchild</title>
+<style>
+#parent{
+height:500px;
+background:red;
+width:70%;
+margin:auto;
+}
+.child1{
+height:20%;
+width:80%;
+margin:auto;
+background:green;
+}
+.child2{
+height:60%;
+margin:auto;
+background:blue;
+width:60%;
+clip-path:circle();
+}
+.child3{
+height:20%;
+width:80%;
+margin:auto;
+background:pink;
+}
+.sub1{
+background:lime;
+width:80%;
+height:80%;
+margin:auto;
+clip-path:circle();
+}
+.minisub1{
+background:violet;
+width:80%;
+height:80%;
+margin:auto;
+clip-path:circle();
+}
+.microsub1{
+background:purple;
+width:80%;
+height:80%;
+margin:auto;
+clip-path:circle();
+}
+</style>
+</head>
+<body>
+<div id="parent">
+<div class="child1"></div>
+<div class="child2">
+<div class="sub1">
+<div class="minisub1">
+<div class="microsub1"></div>
+</div>
+</div>
+</div>
+<div class="child3"></div>
+</div>
+</body>
+</html>
